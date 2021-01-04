@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin: 7%;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+h3{
+    font-weight: 400;
+}
+h2{
+    color: orange;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -5px;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+}
+.link-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #3A94F8, #70F4C4);
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    height: 100vh;
+    margin-bottom: 150px;
+}
+.link-button-2{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, orange, yellow);
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biography .bio-header{
+    margin-top: 130px;
+}
+
+.img-area img{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    margin-left: 6%;
+    margin-top: 60px;
+}
+.img-header{
+    float: none;
+}
